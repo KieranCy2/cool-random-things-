@@ -25,7 +25,7 @@
                 </div>
                 <div class="mt-2">
                   <button id="modal-action-button" type="submit" class="btn btn-inverse-success btn-fw"">ADD SELECTED</button>
-                  button type="button" class="btn btn-inverse-secondary btn-fw" data-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-inverse-secondary btn-fw" data-dismiss="modal">Cancel</button>
                 </div>
               </div>
               <input id="modal-action-hidden-input" type="hidden" name="action" value="">
