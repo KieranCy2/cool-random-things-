@@ -38,11 +38,10 @@
                         } else if(data[i].role == 'user') {
                             roleType = 'info';
                         }
-                     //Generate the table rows
-                    $("#thetable").append('<tr class="col-3" style="color:white;"><td>' +  data[i].handlename + '</td><td class="col-4" style="color:gold;">' + data[i].emailaddress + '</td><td class="col-3"><div class="badge badge-outline-' + roleType + '">' + data[i].role + '</div>' + '</td><td class="col-2"><input type="checkbox" value="' + data[i].uid + '" name="selected[]"></td>' + '</tr>');
-                }
-            },
-            dataType:'json'
+                      //Generate the table rows
+                      $("#thetable").append('<tr class="col-3" style="color:white;"><td>' +  data[i].handlename + '</td><td class="col-4" style="color:gold;">' + data[i].emailaddress + '</td><td class="col-3"><div class="badge badge-outline-' + roleType + '">' + data[i].role + '</div>' + '</td><td class="col-2"><input type="checkbox" value="' + data[i].uid + '" name="selected[]"></td>' + '</tr>');
+                    }
+             },
+             dataType:'json'
         });
-
-    });
+ });
