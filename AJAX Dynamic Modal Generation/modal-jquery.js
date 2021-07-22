@@ -13,6 +13,7 @@
             $('#modal-action-button').removeClass('btn-inverse-danger').addClass('btn-inverse-success');
         }
 
+        //Set the hidden inputs for the table
         $('#modal-action-hidden-input').val(componentAction);
         $('#modal-type-hidden-input').val(componentType);
         $('#modal-component-id-hidden-input').val(componentId);
@@ -23,7 +24,6 @@
                 componentId: componentId, componentType: componentType, componentAction: componentAction
             }, 
             success: function (data) {
-
                 //Empty/initialise the table rows
                 $("#thetable tr").empty();
               
