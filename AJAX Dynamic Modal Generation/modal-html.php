@@ -1,3 +1,7 @@
+<!-- Calling Modal -->
+<a href="#my_modal" data-toggle="modal" data-component-id="<?php echo $example['data'];?>" data-component-type="type1" data-component-action="add">Add Modal</a>
+<a href="#my_modal" data-toggle="modal" data-component-id="<?php echo $example['data'];?>" data-component-type="type1" data-component-action="remove">Remove Modal</a>
+
 <!-- Dynamic AJAX Modal -->
   <div class="modal fade" id="my_modal">
     <div class="modal-dialog">
