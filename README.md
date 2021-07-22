@@ -1,2 +1,2 @@
 # cool-random-things-
-things I have done that are particularly cool!
+Things I have done that are particularly cool!
