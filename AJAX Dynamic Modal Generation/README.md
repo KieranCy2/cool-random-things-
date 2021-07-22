@@ -1,1 +1,2 @@
-Example for filling modal with data dynamically based on how it is called. An AJAX request is used to populate the table with data and attirbutes 
+Example for filling modal with data dynamically based on how it is called with an AJAX request.
+This example populates a table with data and attirbutes inside of the modal.
