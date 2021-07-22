@@ -18,7 +18,7 @@
                   <table id="thetable" class="table card-table-one mb-5">
                   <tbody style="display: block; height: 200px; overflow-y: scroll">
                   <tr class="d-flex">
-
+                  <!--Dynamically created data goes here -->
                   </tr>
                   </tbody>
                   </table>
