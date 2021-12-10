@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Flowchart - Exmato Test</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href='styles.css' rel='stylesheet' type='text/css'>
+    <link href='../engine/flowy.css' rel='stylesheet' type='text/css'>
+    <script src="../engine/flowy.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+<div>
+    <div id="canvas">
+      <div class="blockelem noselect block" id="0" style="left:350px; top: 35px; background-color:#217CE8;" ><input type="hidden" name="blockelemtype" class="blockelemtype" value="0"><input type="hidden" name="blockid" class="blockid" value="0">
+      <div class="blockyleft"><img src="assets/timeblue.svg"><p class="blockyname" style="color:white;">Itinerary Start</p></div></div>
+    </div>
+    <div id="leftcard">
+        <div id="subnav">
+            <div id="Items" class="navactive side">Items</div>
+            <div id="Requests" class="navdisabled side">Requests</div>
+            <div id="Interactions" class="navdisabled side">Interactions</div>
+        </div>
+        <div id="blocklist">
+            <!-- HTML generated in main.js -->
+        </div>
+        <div id = "add-notes">
+          <div id = "notes-button">
+            <button type="submit" id="notes" >Add note</button>
+          </div>
+        </div>
+    </div>
+    <div id="propwrap">
+        <div id="properties">
+            <div id="close">
+                <img src="assets/close.svg">
+            </div>
+            <p id="header2">Add Note</p>
+            <div id="proplist">
+                <form action="/action_page.php">
+                    <textarea name="note" id="note" rows="1" cols="10">
+                    </textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="divisionthing"></div>
+            <div id="removeblock">Delete blocks</div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
